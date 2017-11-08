@@ -1,0 +1,72 @@
+h1,h2,h3,h4,h5,h6,ul,li{
+    margin: 0px;
+    padding: 0px;
+}
+ul,li{
+    list-style: none;
+}
+#uploadBox{
+    text-align: center;
+    width: 80%;
+    height: 250px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+#uploadBox li{
+    float: left;
+    position: relative;
+    margin-left: 10px;
+}
+#uploadBox img{
+    width: 100px;
+    height: 100px;
+}
+.progress{
+    width: 100px;
+    background: rgba(0,0,0,.5);
+    display: inline-block;
+    vertical-align: bottom;
+    left: 0px;
+    position: absolute;
+}
+.hidden{
+    display: none;
+}
+.done .progress{
+    height: 0px !important;
+}
+.percentage{
+    display: inline-block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    top: 25px;
+    left: 25px;
+    line-height: 50px;
+}
+/*.container{
+    width: 1190px;
+    height: 500px;
+    border:1px solid red;
+    margin: 0 auto;
+}
+#uploadBox{
+    text-align: center;
+    width: 80%;
+    height: 250px;
+    border:1px dashed #0f0f0f;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.progress{
+    color:#ccc;
+    display: inline-block;
+}
+.hidden img{
+    width: 150px;
+    height: 150px;
+}*/

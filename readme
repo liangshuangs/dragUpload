@@ -1,0 +1,11 @@
+拖拽主要用到两个事件 dragover drop
+// box为被拖放的区域
+box.addEventListener('dragover', function (e) {
+  e.preventDefault(); // 必须阻止默认事件
+}, flase);
+
+box.addEventListener('drop', function (e) {
+  e.preventDefault(); // 阻止默认事件
+  var file = e.dataTransfer.files[0]; //获取文件
+  // code
+}, false);
